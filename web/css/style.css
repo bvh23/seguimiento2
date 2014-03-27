@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	margin: 0px auto;
+	padding: 0px;
+	width: 800px;
+}
+body{
+    
+   
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container #header {
+	margin: 0px;
+	padding: 0px;
+	height: 197px;
+	width: 800px;
+	
+}
+#container #header #logo {
+	background-image: url(../img/logoventana.png);
+	float: left;
+	width: 234px;
+	margin-left: 10px;
+	height: 197px;
+	z-index:1;
+}
+
+#container  #menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #F3F3F3;
+	width: 800px;
+	height: 45px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	
+}
+#container  #menu ul {
+	display: inline;
+	list-style-type: none;
+	float: left;
+	width: 800px;
+	background:url(../img/botonusuario.png) repeat-x 50% 90%;
+	border:solid 1px #d0d6bc;
+	-moz-border-radius-topleft: 26px;
+	-moz-border-radius-topright:26px;
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-top-left-radius:26px;
+	-webkit-border-top-right-radius:26px;
+	-webkit-border-bottom-left-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-top-left-radius:26px;
+	border-top-right-radius:26px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+#container  #menu ul li a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #F3F3F3;
+	font-weight:bold;
+        text-align:center;
+}
+
+#container  #menu ul li {
+	display: inline-block;
+	width: 90px;
+	margin-right: 15px;
+	margin-left: 24px;
+	height:38px;
+	padding-top:12px;
+	text-align:center;	
+}
+
+#container  #menu ul li a:hover{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #03F;	
+}
+#container #menu ul li:hover ul {
+visibility: visible;
+}
+#container #menu ul ul {
+position: absolute;
+visibility: hidden;
+top: 32px;
+}
+
+nav{
+	margin:0px;
+	padding:0px;}
+	
+#container #cuerpo {
+        
+	clear: both;
+	width:800px;
+	-moz-box-shadow: -4px 0px 11px #664708;
+	-webkit-box-shadow: -4px 0px 11px #664708;
+	box-shadow: -4px 0px 11px #664708;
+	margin:0px auto;
+	height:400px;
+	background:url(../img/fondo.png) no-repeat 50% 90%;
+        
+}
+#container #cuerpo #imagen-izq {
+	float: left;
+	width:250px;
+	margin: 0px 0px 0px 1px ;
+	
+}
+#container #cuerpo #login {
+	width: 300px;
+	margin-right: 100px;
+	margin-left: 520px;
+	padding-top: 140px;
+
+}
+
+#container #cuerpo #login  td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: bold;
+	text-align: center;
+        color: #ccc;
+}
+#container #cuerpo #login table .boton {
+	background-color: #CCC;
+	height: 22px;
+	width: 70px;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	list-style-type: none;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:40px;
+	position:absolute;
+	margin-left:25px;
+	top:100px;
+	margin-left:300px;
+	font-style:oblique;
+	
+	}
+.ac_results {
+	padding: 0px;
+	border: 1px solid #8a8a8a;
+	background-color: #8A8A8A;
+	overflow: hidden;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px ;
+	cursor: default;
+	display: block;
+	color: #fff;
+	font-family:verdana;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+
+}
+
+.ac_loading {
+	background: white url('../img/indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #9d9d9d;
+	color: #ffffff;
+}
+
+.ac_over {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.input_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:1px solid #CC00CC;
+	padding:2px;
+	width:150px;
+	color:#000;
+	background:white url(../img/search.png) no-repeat 3px 2px;
+	padding-left:10px;
+}
+#BuscarCliente {
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 25%;
+margin-top: 5%;
+text-align: center;
+}
+#BuscarCliente table .boton{
+    padding: 3px;
+    margin-top: 25px;
+    margin-left: 470px;
+    
+}
+#chat{    
+   
+    margin:-450px 0 0 0;
+    float: right;
+}
+#imagenesgif {
+  
+
+}
+#container #cuerpo #tabla{
+    margin:0px 150px;
+    padding-top: 25px;
+   
+}
+
+#Consulta{
+ margin-left: 40%;   
+}
+ 
